@@ -1,4 +1,6 @@
 ----------Server--------------
+
+
 npm init -y
 npm install express morgan body-parser cors nodemon
 
@@ -10,6 +12,8 @@ cors	        อนุญาตให้ frontend คนละโดเมนเ
 nodemon	        รีสตาร์ท server อัตโนมัติเมื่อแก้ไฟล์
 
 ----------Prisma--------------
+
+
 npm install prisma
 npx prisma init
 npm install @prisma/client
@@ -21,6 +25,8 @@ npx prisma migrate dev --name workshop1_init
 npx prisma migrate dev
 
 -----------Client-------------
+
+
 npx create-next-app@latest foldername
 
 npm install
@@ -29,10 +35,10 @@ npm install axios
 pnpm i
 
 -----------Database (in root project)-------------
+
+
 npx neonctl@latest init
 
-
-สำหรับคลิปนี้เราจะมาสอนการใช้ ExpressJS NodeJS ในการติดต่อกับฐานข้อมูล MySQL ทำ CRUD ด้วย Prisma และทดสอบ API ด้วย Postman กันครับ
 
 CRUD คืออะไร? 
 Create: สร้างข้อมูล
